@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es6",
+        "moduleResolution": "node",
+        "outDir": "src/v1/storage",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "include": [
+        "src/v1/storage/*.ts"    
+    ],
+    "exclude": [
+        "src/v1/storage/*.js"
+    ]
+}
